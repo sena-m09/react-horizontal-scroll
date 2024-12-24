@@ -16,30 +16,29 @@
 }
 
 .wrapper.-canScrollRight::after {
-  box-shadow: -4px 0px 5px 0px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: -4px 0px 5px 0px rgba(0, 0, 0, 0.3) inset;
 }
 
 .wrapper.-canScrollLeft::after {
-  box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.3) inset;
 }
 
 .wrapper.-canScrollRight.-canScrollLeft::after {
-  box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.2) inset,
-    -9px 0px 5px -5px rgba(0, 0, 0, 0.2) inset;
+  box-shadow: 4px 0px 5px 0px rgba(0, 0, 0, 0.3) inset,
+    -9px 0px 5px -5px rgba(0, 0, 0, 0.3) inset;
 }
 
 .container {
-  padding: 2rem;
-  display: flex;
-  gap: 20px;
   overflow-x: scroll;
+}
+
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 .box {
   position: relative;
-  z-index: 200;
   min-width: 600px;
-  height: 400px;
-  border: 3px solid #333;
-  background-color: #eaeea2;
+  border: 2px solid #9f9f9f;
 }

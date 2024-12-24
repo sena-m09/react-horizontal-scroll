@@ -21,13 +21,40 @@ function App() {
       style={{ "--scroll-bar-height": `${scrollBarHeight}px` } as React.CSSProperties}
        >
         <div className="container" ref={horizontalScrollRefCallback}>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
-          <div className="box"></div>
+          <table className="table">
+            <tbody>
+              <tr className="row">
+                <th className="box">項目</th>
+                <td className="box">テキスト</td>
+                <td className="box">テキストテキスト</td>
+                <td className="box">テキスト</td>
+              </tr>
+              <tr className="row">
+                <th className="box">項目</th>
+                <td className="box">テキスト</td>
+                <td className="box">テキストテキスト</td>
+                <td className="box">テキスト</td>
+              </tr>
+              <tr className="row">
+                <th className="box">項目</th>
+                <td className="box">テキスト</td>
+                <td className="box">テキストテキスト</td>
+                <td className="box">テキスト</td>
+              </tr>
+              <tr className="row">
+                <th className="box">項目</th>
+                <td className="box">テキスト</td>
+                <td className="box">テキストテキスト</td>
+                <td className="box">テキスト</td>
+              </tr>
+              <tr className="row">
+                <th className="box">項目</th>
+                <td className="box">テキスト</td>
+                <td className="box">テキストテキスト</td>
+                <td className="box">テキスト</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </>
